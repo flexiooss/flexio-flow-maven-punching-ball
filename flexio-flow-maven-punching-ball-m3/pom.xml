@@ -12,5 +12,16 @@
 
     <artifactId>flexio-flow-maven-punching-ball-m3</artifactId>
 
+    <properties>
+        <jackson.version>2.8.8</jackson.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+    </dependencies>
     
 </project>
