@@ -10,17 +10,12 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>flexio-flow-maven-punching-ball-m3</artifactId>
-
-    <properties>
-        <jackson.version>2.8.8-SNAPSHOT</jackson.version>
-    </properties>
+    <artifactId>flexio-flow-maven-punching-ball-m4</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>${jackson.version}</version>
+            <groupId>org.jboss.arquillian.core</groupId>
+            <artifactId>arquillian-core-api</artifactId>
         </dependency>
     </dependencies>
     
